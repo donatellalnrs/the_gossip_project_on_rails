@@ -1,24 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#The Gossip Project. 
 
-Things you may want to cover:
+Premières pages de l'application : quelques pages statiques et les pages potins
 
-* Ruby version
+Nous allons commencer aujourd'hui par créer les premières pages :
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+La page d'accueil, bien entendu. Cette page d'accueil affichera tous les potins créés
+La page qui présente l'équipe de The Gossip Project, aka toi et ton binome
+La page de contact où tu vas balancer une superbe adresse de contact
+Une page de bienvenue, qui accueille l'utilisateur en fonction du nom passé dans l'URL

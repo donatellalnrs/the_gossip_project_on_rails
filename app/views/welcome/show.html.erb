@@ -1,0 +1,17 @@
+<head>
+  <title>Page d'accueil</title>
+</head>
+
+<body>
+  <h1>Bienvenue <%=@user%> !</h1> 
+  <p>Ici c'est notre super site de potins, il est chouette, non ?</p>
+</body>
+
+<p>Voici les gossips:</p>
+<%i = -1 
+@gossips.each do |gossip| 
+  i += 1%>
+  <p>Titre du gossip: <%=@gossips[i].title%></p>
+  <p>Auteur : <%=@gossips[i].user.first_name%> <%=@gossips[i].user.last_name%></p>
+  <p><%= link_to "Afficher le potin", gossip_path(@gossips[i].id)%></p></br></br>
+<% end%>

@@ -1,0 +1,15 @@
+<head>
+    <title>Gossip détails</title>
+  </head>
+
+
+<body>
+<h1>Le gossip en détail</h1>
+<p>Voici : </p>
+<ul>
+<li>L'auteur : <%= @author.first_name %> <%= @author.last_name %></li>
+<li>Le titre : <%= @gossip.title %></li>
+<li>Le contenu: <%= @gossip.content %></li>
+<li>La date de création: <%= @gossip.created_at%></li>
+</ul>
+</body>
